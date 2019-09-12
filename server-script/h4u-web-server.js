@@ -2,10 +2,10 @@ var express = require('express')
 var app = express()
 var path = require('path');
 
-app.use(express.static(path.join(__dirname, './h4u-web-his')));
+app.use(express.static(path.join(__dirname, './h4u-web-his/dist')));
 
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, './h4u-web-his/index.html'));
+  res.sendFile(path.join(__dirname, './h4u-web-his/dist/index.html'));
 });
 
 // catch 404 and forward to error handler
