@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "h4u-web-his",
+      "script": "./h4u-web-server.js"
+    },
+    {
+      "name": "h4u-api-his",
+      "script": "./h4u-api-his/app/bin/www.js",
+      "wait_ready": true
+    }
+  ]
+}

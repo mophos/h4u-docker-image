@@ -1,0 +1,14 @@
+node_modules/*
+typings/*
+npm-debug.log
+.settings/*
+.git/*
+bower_components/*
+apps/*
+.DS_Store
+.idea
+.env
+app/*
+package-lock.json
+h4u-config
+.vscode/
